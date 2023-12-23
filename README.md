@@ -1,4 +1,4 @@
-An implementation of a 7x7 Connect Four game on the Altera DE1_SoC board. 
+An implementation of a 7x6 Connect Four game on the Altera DE1_SoC board. 
 
 > [!NOTE]
 > This project was originally created for ECE 241, a Digital Systems course at the 
