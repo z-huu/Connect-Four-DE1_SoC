@@ -43,3 +43,8 @@ switches and push it to the system via a key press.
     - [ ] Update game board in memory given column press
     - [ ] Display game board to VGA
     - [ ] Display winner, if any
+
+
+### Third Party Resources
+
+This project makes use of audio cores adapted for use with the DE1_SoC board. I do not own these cores; these were adapted by Paul Chow, a professor at the University of Toronto.
