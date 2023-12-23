@@ -1,0 +1,18 @@
+
+State Machine - |audioANDinput|audio:BOOM|cState
+Name cState.counting 
+cState.waiting 0 
+cState.counting 1 
+
+State Machine - |audioANDinput|audio:BOOM|avconf:avc|mSetup_ST
+Name mSetup_ST.0000 mSetup_ST.0010 mSetup_ST.0001 
+mSetup_ST.0000 0 0 0 
+mSetup_ST.0001 1 0 1 
+mSetup_ST.0010 1 1 0 
+
+State Machine - |audioANDinput|control:YUPP|cState
+Name cState.push_column cState.error_msg cState.error_check cState.loading_col 
+cState.loading_col 0 0 0 0 
+cState.error_check 0 0 1 1 
+cState.error_msg 0 1 0 1 
+cState.push_column 1 0 0 1 
