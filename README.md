@@ -1,7 +1,9 @@
-An implementation of a 7x7 Connect Four game on the Altera DE1_SoC board. This project
-was originally created for ECE 241, a Digital Systems course at the University of
-Toronto that focused on implementations on the DE1_SoC board without the use of its
-ARM microprocessor.
+An implementation of a 7x7 Connect Four game on the Altera DE1_SoC board. 
+
+> [!NOTE]
+> This project was originally created for ECE 241, a Digital Systems course at the 
+> University of Toronto that focused on implementations on the DE1_SoC board without 
+> the use of its ARM microprocessor.
 
 As such, this project will contain solely Quartus project + Verilog HDL files for
 running it on the FPGA.
@@ -15,7 +17,7 @@ switches and push it to the system via a key press.
 
 ### Progress
 
-1. User input **Completed!**
+1. User input 
     - [x] Switch input
         - [x] Error checking
     - [x] LED output
