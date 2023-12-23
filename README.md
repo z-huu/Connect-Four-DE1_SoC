@@ -26,6 +26,7 @@ switches and push it to the system via a key press.
     Players will input a column for tile placement using the board's rightmost
     switches. There is some error-checking logic that will flash blinking LEDs
     following a key press with more than one switch high or an out of bounds column.
+    Similarly, a sequence of LEDs are flashed if the column input is valid.
 
 2. Audio output 
     - [x] Audio played following a successful column push from the user
