@@ -2,8 +2,8 @@ An implementation of a 7x6 Connect Four game on the Altera DE1_SoC board.
 
 > [!NOTE]
 > This project was originally created for ECE 241, a Digital Systems course at the 
-> University of Toronto that focused on implementations on the DE1_SoC board without 
-> the use of its ARM microprocessor.
+> University of Toronto that focused on implementations on the DE1_SoC board using 
+> solely hardware description language code
 
 As such, this project will contain solely Quartus project + Verilog HDL files for
 running it on the FPGA.
